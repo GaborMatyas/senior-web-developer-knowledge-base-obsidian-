@@ -1,2 +1,3 @@
 # Debugging
 
+- [[Chrome developer tools]]
