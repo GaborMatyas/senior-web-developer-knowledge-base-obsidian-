@@ -58,3 +58,10 @@ The `greet` function has no return value explicitly, but once the last code line
 
 The anonymous function was responsible for running our code, and since there are no other lines to work with, this is also removed from the heap an we are done. 
 ![[Pasted image 20220213125300.png]]
+
+### Garbage Collector
+This is the part of the Javascript engine. Periodically checks the [[How is JavaScript Executed#Heap|heap]] for unused objects and removes them. (These are the objects without references).
+
+### Memory Leaks
+When you have an unused objects but still have a reference for it.
+

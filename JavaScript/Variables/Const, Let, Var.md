@@ -14,7 +14,7 @@ It does not define a constant value. It defines a constant reference to a value.
 Because of this you can NOT:
 -   Reassign a constant value
 -   Reassign a constant [[Array]]
--   Reassign a constant [[object WIP]]
+-   Reassign a constant [[Objects]]
 
 But you CAN:
 -   Change the elements of constant [[Array]]
@@ -35,7 +35,7 @@ But you CAN:
 	cars = ["Toyota", "Volvo", "Audi"]; // ERROR
 
 ```
--   Change the properties of constant [[object WIP]]
+-   Change the properties of constant [[Objects]]
 ```js
 	// You can create a const object:  
 	const car = {type:"Fiat", model:"500", color:"white"};  

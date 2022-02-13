@@ -1,1 +1,3 @@
 # [[JavaScript]]
+# [[Rust]]
+# [[Code theory]]

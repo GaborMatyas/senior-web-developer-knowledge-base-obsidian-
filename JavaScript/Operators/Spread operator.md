@@ -20,5 +20,5 @@ For array literals:
 For object literals (new in ECMAScript 2018):
 
 ```
-let objClone = { ...obj }; // pass all key:value pairs from an object 
+let objClone = { ...obj }; // pass all key:value pairs from an object (shallow copy)
 ```

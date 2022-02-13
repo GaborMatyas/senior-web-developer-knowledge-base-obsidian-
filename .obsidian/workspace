@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JavaScript/About Javascript and its execution/browser-side.md",
+            "file": "Code theory/Cognitive Complexity.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "array",
+                "query": "cyclom",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/About Javascript and its execution/browser-side.md",
+                "file": "Code theory/Cognitive Complexity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +90,15 @@
   },
   "active": "c8b5547561e1e1e7",
   "lastOpenFiles": [
-    "JavaScript/About Javascript and its execution/browser-side.md",
-    "JavaScript/About Javascript and its execution/How is JavaScript Executed.md",
-    "JavaScript/Debugging/Reach the call stack in Google Chrome.md",
-    "JavaScript/Debugging/Debugging.md",
-    "JavaScript/Debugging/Pasted image 20220213125825.png",
+    "Code theory/Cognitive Complexity.md",
+    "JavaScript/About Javascript and its execution/Arrow functions.md",
+    "this.md",
+    "JavaScript/About Javascript and its execution/ES6.md",
     "JavaScript/About Javascript and its execution/About Javascript and its execution.md",
-    "JavaScript/Debugging/Chrome developer tools.md",
-    "JavaScript/About Javascript and its execution/Pasted image 20220213124334.png",
     "JavaScript/JavaScript.md",
-    "JavaScript/About Javascript and its execution/Embed Javascript to HTML.md"
+    "Code theory/Code theory.md",
+    "Code theory/Cyclomatic complexity.md",
+    "index.md",
+    "Untitled.md"
   ]
 }

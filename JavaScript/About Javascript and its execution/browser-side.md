@@ -11,8 +11,16 @@ It was invented originaly to change the content dynamically on a webpage.
 
 ## [[Embed Javascript to HTML]]
 
+## 'document' global variable
+Provides access for us to reach the html document. 
+
 ## Browser APIs
 These are the communication bridges between JavaScript and C++ Logic built into the Browser. 
+
+```js
+console.dir(object);
+```
+The method **`console.dir()`** displays an interactive list of the properties of the specified JavaScript object. The output is presented as a hierarchical listing with disclosure triangles that let you see the contents of child objects.
 
 
 ## Event loop
