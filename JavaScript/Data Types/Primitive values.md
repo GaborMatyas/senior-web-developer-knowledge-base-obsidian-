@@ -1,0 +1,4 @@
+# Primitive values
+
+- [[Numbers]]
+- [[Strings]]

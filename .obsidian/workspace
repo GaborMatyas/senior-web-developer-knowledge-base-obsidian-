@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "6e89096ef1d81e01",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8b5547561e1e1e7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "JavaScript/About Javascript and its execution/browser-side.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "40575dbf85e97904",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8bb3d4f1d6053d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2da076b94befb829",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ba6d9c4fa7d8e04f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "array",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d3ef007525e9cabd",
+    "type": "split",
+    "children": [
+      {
+        "id": "be00e47309bc24fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c7bf9aac300d376",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "JavaScript/About Javascript and its execution/browser-side.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c8b5547561e1e1e7",
+  "lastOpenFiles": [
+    "JavaScript/About Javascript and its execution/browser-side.md",
+    "JavaScript/About Javascript and its execution/How is JavaScript Executed.md",
+    "JavaScript/About Javascript and its execution/Embed Javascript to HTML.md",
+    "JavaScript/About Javascript and its execution/use strict.md",
+    "JavaScript/About Javascript and its execution/About Javascript and its execution.md",
+    "JavaScript/About Javascript and its execution/ES6.md",
+    "JavaScript/About Javascript and its execution/What is JavaScript.md",
+    "JavaScript/JavaScript.md",
+    "JavaScript/Loops/for await .... of loop.md",
+    "JavaScript/Loops/async loops.md"
+  ]
+}
