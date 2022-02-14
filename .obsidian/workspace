@@ -7,11 +7,9 @@
         "id": "c8b5547561e1e1e7",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "Code theory/Cognitive Complexity.md",
-            "mode": "source",
-            "source": false
+            "file": "Code theory/Pasted image 20220214225256.png"
           }
         }
       }
@@ -49,8 +47,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code theory/Cognitive Complexity.md",
+                "file": "Code theory/Pasted image 20220214225256.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +87,15 @@
   },
   "active": "c8b5547561e1e1e7",
   "lastOpenFiles": [
-    "Code theory/Cognitive Complexity.md",
-    "JavaScript/About Javascript and its execution/Arrow functions.md",
-    "this.md",
-    "JavaScript/About Javascript and its execution/ES6.md",
-    "JavaScript/About Javascript and its execution/About Javascript and its execution.md",
-    "JavaScript/JavaScript.md",
+    "Code theory/Pasted image 20220214225256.png",
+    "Code theory/Algorithms and Data Structures/Frequency Counter Problem Solving pattern.md",
     "Code theory/Code theory.md",
-    "Code theory/Cyclomatic complexity.md",
-    "index.md",
-    "Untitled.md"
+    "Code theory/Algorithm Complexity.md",
+    "Code theory/Space complexity.md",
+    "Code theory/Auxiliary Space Complexity.md",
+    "Code theory/Algorithms and Data Structures/Algorithms and Data Structures.md",
+    "Code theory/Algorithms and Data Structures/Algorithms/Efficient sumToUp function.md",
+    "Code theory/Algorithms and Data Structures/Algorithms/Algorithms.md",
+    "Code theory/Cognitive Complexity.md"
   ]
 }

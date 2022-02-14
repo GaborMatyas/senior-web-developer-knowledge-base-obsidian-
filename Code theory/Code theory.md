@@ -1,2 +1,6 @@
 -  [[Cyclomatic complexity]]
 - [[Cognitive Complexity]]
+- [[Auxiliary Space Complexity]]
+- [[Space complexity]]
+- [[Algorithm Complexity]]
+- [[Frequency Counter Problem Solving pattern]]
