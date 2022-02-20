@@ -1,1 +1,3 @@
-[[Algorithms]]
+## [[Algorithms]]
+## [[Data Structures]]
+

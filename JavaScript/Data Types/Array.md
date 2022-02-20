@@ -9,7 +9,9 @@ In general, these are convenient characteristics; but if these features are not 
 
 Arrays cannot use strings as element indexes (as in an [associative array](https://en.wikipedia.org/wiki/Associative_array)) but must use integers.
 
-
+IMOPORTANT NOTE: 
+`indexOf, includes, find, findIndex` operations uses linear search under the hood in Javascript. If you need a faster search method with some amount of heuristic, write your own algorithm for big datasets. 
+	
 ## [Common operations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#common_operations "Permalink to Common operations")
 
 **Create an Array**
@@ -70,7 +72,7 @@ let newLength = fruits.unshift('Strawberry') // add to the front
 ```
 
 **Find the index of an item in the Array**
-
+it uses linear search
 ```
 fruits.push('Mango')
 // ["Strawberry", "Banana", "Mango"]
@@ -160,129 +162,172 @@ Creates a new `Array` instance with a variable number of arguments, regardless o
 
 Returns the array item at the given index. Accepts negative integers, which count back from the last item.
 
+
 [`Array.prototype.concat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat)
 
 Returns a new array that is this array joined with other array(s) and/or value(s).
+
 
 [`Array.prototype.copyWithin()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin)
 
 Copies a sequence of array elements within the array.
 
+
 [`Array.prototype.entries()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
 
 Returns a new _array iterator_ object that contains the key/value pairs for each index in the array.
+
 
 [`Array.prototype.every()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
 
 Returns `true` if every element in this array satisfies the testing function.
 
+
 [`Array.prototype.fill()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill)
 
 Fills all the elements of an array from a start index to an end index with a static value.
+
 
 [`Array.prototype.filter()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 Returns a new array containing all elements of the calling array for which the provided filtering function returns `true`.
 
-[`Array.prototype.find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
 
+[`Array.prototype.find()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+It uses linear search.
 Returns the found `element` in the array, if some element in the array satisfies the testing function, or `undefined` if not found.
 
-[`Array.prototype.findIndex()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
 
+[`Array.prototype.findIndex()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex)
+It uses linear search.
 Returns the found index in the array, if an element in the array satisfies the testing function, or `-1` if not found.
+
 
 [`Array.prototype.flat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat)
 
 Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 
+
 [`Array.prototype.flatMap()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)
 
 Returns a new array formed by applying a given callback function to each element of the array, and then flattening the result by one level.
+
 
 [`Array.prototype.forEach()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
 
 Calls a function for each element in the array.
 
-[`Array.prototype.includes()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
 
+[`Array.prototype.includes()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes)
+It uses linear search.
 Determines whether the array contains a value, returning `true` or `false` as appropriate.
 
-[`Array.prototype.indexOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
 
+[`Array.prototype.indexOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)
+It uses linear search.
 Returns the first (least) index of an element within the array equal to an element, or `-1` if none is found.
+
 
 [`Array.prototype.join()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 
 Joins all elements of an array into a string.
 
+
 [`Array.prototype.keys()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/keys)
 
 Returns a new _array iterator_ that contains the keys for each index in the array.
+
 
 [`Array.prototype.lastIndexOf()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf)
 
 Returns the last (greatest) index of an element within the array equal to an element, or `-1` if none is found.
 
+
 [`Array.prototype.map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
 Returns a new array containing the results of calling a function on every element in this array.
+
 
 [`Array.prototype.pop()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 
 Removes the last element from an array and returns that element.
 
+
 [`Array.prototype.push()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 
 Adds one or more elements to the end of an array, and returns the new `length` of the array.
+
 
 [`Array.prototype.reduce()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
 Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.
 
+
 [`Array.prototype.reduceRight()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight)
 
 Apply a function against an accumulator and each value of the array (from right-to-left) as to reduce it to a single value.
+
 
 [`Array.prototype.reverse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
 
 Reverses the order of the elements of an array _in place_. (First becomes the last, last becomes first.)
 
+
 [`Array.prototype.shift()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
 
 Removes the first element from an array and returns that element.
+
 
 [`Array.prototype.slice()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
 
 Extracts a section of the calling array and returns a new array.
 
+
 [`Array.prototype.some()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
 
 Returns `true` if at least one element in this array satisfies the provided testing function.
 
+
 [`Array.prototype.sort()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
 Sorts the elements of an array in place and returns the array.
+If it is used without any parameter it will work with the unicode represantation of the elements. So by default it is not suited to sort numbers for example. 
+To use it with numbers, it requires a compare function. Such as:
+```js
+const numberCompare = (num1, num2) => num1 - num2;
+
+[6,4,15,10].sort(numberCompare); // [4,6,15,10]
+
+```
+If the callback returns 0, the two values are equeal, 
+if return positive number, the order is `b` - `a`
+if return -1, the order is `a` - `b`
+
 
 [`Array.prototype.splice()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
 
 Adds and/or removes elements from an array.
 
+
 [`Array.prototype.toLocaleString()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toLocaleString)
 
 Returns a localized string representing the array and its elements. Overrides the [`Object.prototype.toLocaleString()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toLocaleString) method.
+
 
 [`Array.prototype.toString()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString)
 
 Returns a string representing the array and its elements. Overrides the [`Object.prototype.toString()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString) method.
 
+
 [`Array.prototype.unshift()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
 
 Adds one or more elements to the front of an array, and returns the new `length` of the array.
 
+
 [`Array.prototype.values()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values)
 
 Returns a new _array iterator_ object that contains the values for each index in the array.
+
 
 [`Array.prototype[@@iterator]()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/@@iterator)
 

@@ -53,7 +53,7 @@ Important note: This does not mean that the function definition has been removed
 The `getName` function receives the returned value from the `prompt` so it is also removed from the stack. 
 ![[Pasted image 20220213125030.png]]
 
-The `greet` function has no return value explicitly, but once the last code line is finished inside this function, it will return anyway so it is popped from the stack too. 
+The `greet` function has no return value explicitly, but once the last code line is finished inside this function, it will return anyway so it is popped from the stack too. When Javascript sees a `return` keyword or the function is ended, it pops the function from call stack. 
 ![[Pasted image 20220213125146.png]]
 
 The anonymous function was responsible for running our code, and since there are no other lines to work with, this is also removed from the heap an we are done. 
