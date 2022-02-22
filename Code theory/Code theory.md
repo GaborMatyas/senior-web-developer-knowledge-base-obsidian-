@@ -16,3 +16,4 @@
 # Patterns
 ## Problem solving patterns
 - [[Frequency Counter Problem Solving pattern]] ( avoid the need for nested loops )
+- [[SOLID principles]]

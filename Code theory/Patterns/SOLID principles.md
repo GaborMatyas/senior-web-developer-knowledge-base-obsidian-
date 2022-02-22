@@ -1,0 +1,10 @@
+# Solid Principles
+_SOLID_ is an acronym for the first five object-oriented design (OOD) principles by Robert C. Martin.
+
+SOLID stands for:
+
+-   [**S** - Single-responsiblity Principle](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design#single-responsibility-principle) - a class should have only one job.
+-   [**O** - Open-closed Principle](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design#open-closed-principle) - Objects or entities should be open for extension but closed for modification.
+-   [**L** - Liskov Substitution Principle](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design#liskov-substitution-principle) - This means that every subclass can replace its superclass. A superclass that produce a T type, and the subcalss produce an S type, this S type should be a subtype of T. 
+-   [**I** - Interface Segregation Principle](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design#interface-segregation-principle) A child should never be forced to implement an interface that it doesn’t use, or child shouldn’t be forced to depend on methods they do not use.
+-   [**D** - Dependency Inversion Principle](https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design#dependency-inversion-principle) - Entities must depend on abstractions, not on implementation. For example it should depend on an Interface, not a concrete implementation. (if a high level entity should use a low level entity that produces a database connection, it should depend on an interface that defines the api of this database, not the current database implementation, so if we change the implementation of the DB connection, we should not change anything in the high levele entity))

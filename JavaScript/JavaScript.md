@@ -1,9 +1,14 @@
 # Javascript
 
 - [[About Javascript and its execution]]
-- [[Variables]]
-- [[Operators]]
 - [[Data Types]]
 - [[Debugging]]
+- [[Functional programming]]
+- [[Functions]]
 - [[Loops]]
-- 
+- [[Object Oriented Programming]]
+- [[Operators]]
+- [[Variables]]
+
+
+

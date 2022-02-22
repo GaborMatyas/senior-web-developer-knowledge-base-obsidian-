@@ -1,7 +1,6 @@
 # Binary search
 
 The time complexity of the binary search algorithm is **O(log n)**. The best-case time complexity would be O(1) when the central index would directly match the desired value.
-
 ```js
 const binarySearch = (sortedArray, key) => {
     let start = 0;

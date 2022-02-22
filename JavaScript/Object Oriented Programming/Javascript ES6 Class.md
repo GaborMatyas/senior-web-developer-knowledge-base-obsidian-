@@ -18,7 +18,9 @@ class Rectangle {
 let firstRectangle = new Rectangle(2, 3);
 ```
 
+
 ## Instance Methods
+
 
 ## Static Methods
 Static methods are called without instantiating their class and cannot be callled though a class instance. 

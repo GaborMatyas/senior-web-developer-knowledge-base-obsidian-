@@ -29,3 +29,4 @@ Simple Tree:
 ## [[Binary Tree]]
 ## [[Binary Search Trees]]
 ## [[Tree traversals]]
+## [[Heaps]]

@@ -2,7 +2,7 @@
 
 **Steps - Iteratively**
 
--   Create a queue (this can be an [[Array]]) and a [[Variables|variable]] to store the values of nodes visited
+-   Create a queue (this can be an [[Array]]) or a [[Variables|variable]] to store the values of nodes visited
 -   Place the root node in the [[Queues|queue]]
 -   Loop as long as there is anything in the queue
     -   Dequeue a node from the queue and push the value of the node into the variable that stores the nodes
