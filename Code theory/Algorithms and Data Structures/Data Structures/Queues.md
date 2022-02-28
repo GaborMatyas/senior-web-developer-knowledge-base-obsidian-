@@ -62,3 +62,5 @@ class Queue {
     }
 }
 ```
+
+An example for [[Shortest Path Algorithm#Simple priority queue|Simple priority queue]]

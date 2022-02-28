@@ -8,7 +8,7 @@
 In a **MaxBinaryHeap**, parent nodes are always larger than child nodes. In a **MinBinaryHeap**, parent nodes are always smaller than child nodes.
 In the following picture, the root is the largest number in the heap. There is no order on the second level, the nodes are smaller than their parent, that is all.
 
-Binary Heaps are used to implement Priority Queues, which are **very** commonly used data structures.
+### Binary Heaps are used to implement Priority Queues, which are **very** commonly used data structures.
 
 They are also used quite a bit, with **graph traversal** algorithms.
 

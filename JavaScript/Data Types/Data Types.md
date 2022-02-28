@@ -16,5 +16,6 @@ These are stored in the stack normally, are cheap to create. Their duplication d
 - [[Reference values]]
 	- [[Objects]] (collections of properties)
 	- [[Array]]
+	- [[Map]]
 
 - [[Falsy values]]

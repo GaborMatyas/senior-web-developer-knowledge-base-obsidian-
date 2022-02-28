@@ -30,3 +30,4 @@ Simple Tree:
 ## [[Binary Search Trees]]
 ## [[Tree traversals]]
 ## [[Heaps]]
+## [[PRIORITY QUEUE]]
