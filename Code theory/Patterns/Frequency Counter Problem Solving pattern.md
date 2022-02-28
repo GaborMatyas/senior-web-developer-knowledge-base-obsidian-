@@ -1,8 +1,10 @@
+# Frequency Counter Problem Solving pattern
+
 This pattern uses objects or sets to collect values/frequencies of values
 
 This can often avoid the need for nested loops or O(N^2) operations with arrays / strings.
 
-# AN EXAMPLE
+## AN EXAMPLE
 
 Write a function called **same**, which accepts two arrays. The function should return true if every value in the array has it's corresponding value squared in the second array. The frequency of values must be the same.
 
@@ -13,7 +15,7 @@ same([1,2,3], [1,9]) // false
 same([1,2,1], [4,4,1]) // false (must be same frequency)
 ```
 
-# A NAIVE SOLUTION
+## A NAIVE SOLUTION
 
 ```js
 function same(arr1, arr2){
@@ -34,7 +36,7 @@ function same(arr1, arr2){
 **Time Complexity - N^2**
 
 
-# REFACTORED
+## REFACTORED
 
 ```js
 function same(arr1, arr2){
