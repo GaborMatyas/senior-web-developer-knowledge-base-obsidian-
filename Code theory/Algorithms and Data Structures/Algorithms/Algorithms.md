@@ -4,6 +4,7 @@
 # Search Algorithms
 - [[Linear Search]]
 - [[Binary Search]]
+- [[Shortest Path Algorithm]]
 
 
 # Sorting Algorithms

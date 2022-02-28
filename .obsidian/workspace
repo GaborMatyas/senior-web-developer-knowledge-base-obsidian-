@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Code theory/Algorithms and Data Structures/Data Structures/Trees/Heaps/Heaps.md",
+            "file": "Code theory/Tabulation.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "shift",
+                "query": "recursion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code theory/Algorithms and Data Structures/Data Structures/Trees/Heaps/Heaps.md",
+                "file": "Code theory/Tabulation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "c8b5547561e1e1e7",
   "lastOpenFiles": [
-    "Code theory/Algorithms and Data Structures/Data Structures/Trees/Heaps/Heaps.md",
-    "Code theory/Algorithms and Data Structures/Data Structures/Trees/Tree.md",
-    "Code theory/Algorithms and Data Structures/Data Structures/Trees/Binary Trees/Binary Search Trees.md",
-    "Code theory/Algorithms and Data Structures/Data Structures/Trees/Binary Trees/Pasted image 20220220203355.png",
-    "Code theory/Algorithms and Data Structures/Data Structures/Trees/Binary Trees/Pasted image 20220220134647.png",
-    "Code theory/Algorithms and Data Structures/Data Structures/Trees/Binary Trees/Pasted image 20220220135235.png",
-    "Code theory/Algorithms and Data Structures/Data Structures/Trees/Binary Trees/Pasted image 20220220142722.png",
-    "Code theory/Algorithms and Data Structures/Data Structures/Trees/Binary Trees/Pasted image 20220220184157.png",
-    "Code theory/Algorithms and Data Structures/Data Structures/Trees/Binary Trees/Pasted image 20220220184324.png",
-    "Code theory/Algorithms and Data Structures/Data Structures/Trees/Binary Trees/Pasted image 20220220184655.png"
+    "Code theory/Tabulation.md",
+    "Code theory/Dynamic Programming.md",
+    "Code theory/Memoization.md",
+    "Code theory/Code theory.md",
+    "Code theory/Algorithms and Data Structures/Algorithms/Algorithms.md",
+    "Code theory/Algorithms and Data Structures/Algorithms and Data Structures.md",
+    "Code theory/Algorithms and Data Structures/Data Structures/Trees/Tree Traversals/Tree traversals.md",
+    "Code theory/Patterns/SOLID principles.md",
+    "Code theory/Patterns/Frequency Counter Problem Solving pattern.md",
+    "Code theory/Algorithms and Data Structures/Algorithms/Searching/Shortest Path Algorithm.md"
   ]
 }
