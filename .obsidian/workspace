@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Code theory/Tabulation.md",
+            "file": "Code theory/Code theory.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code theory/Tabulation.md",
+                "file": "Code theory/Code theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "c8b5547561e1e1e7",
   "lastOpenFiles": [
+    "Code theory/Code theory.md",
     "Code theory/Tabulation.md",
+    "Code theory/Algorithms and Data Structures/Algorithms/Floyd's Tortoise And Hare Algorithm to detect cycles in linked lists.md",
+    "Code theory/Algorithms and Data Structures/Algorithms/Algorithms.md",
     "Code theory/Dynamic Programming.md",
     "Code theory/Memoization.md",
-    "Code theory/Code theory.md",
-    "Code theory/Algorithms and Data Structures/Algorithms/Algorithms.md",
     "Code theory/Algorithms and Data Structures/Algorithms and Data Structures.md",
     "Code theory/Algorithms and Data Structures/Data Structures/Trees/Tree Traversals/Tree traversals.md",
     "Code theory/Patterns/SOLID principles.md",
-    "Code theory/Patterns/Frequency Counter Problem Solving pattern.md",
-    "Code theory/Algorithms and Data Structures/Algorithms/Searching/Shortest Path Algorithm.md"
+    "Code theory/Patterns/Frequency Counter Problem Solving pattern.md"
   ]
 }

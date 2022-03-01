@@ -1,5 +1,6 @@
 - [[Efficient sumToUp function]]
 - [[Sliding Window Pattern]]
+- [[Floyd's Tortoise And Hare Algorithm to detect cycles in linked lists]]
 
 # Search Algorithms
 - [[Linear Search]]
