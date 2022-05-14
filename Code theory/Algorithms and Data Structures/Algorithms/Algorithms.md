@@ -6,9 +6,13 @@
 - [[Linear Search]]
 - [[Binary Search]]
 - [[Shortest Path Algorithm]]
+- [[Quick Select - Find kth largest element]]
 
 
 # Sorting Algorithms
 - [[Bubble sort]] 
 - [[Selection sort]]
 - [[Insertion sort]]
+- [[Merge Sort]]
+- [[Quick Sort]]
+- [[Radix Sort]] - Ptentially can be the fastest, but not always

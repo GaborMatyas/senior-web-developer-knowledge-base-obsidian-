@@ -20,7 +20,7 @@ Access = O(n)
 
 ## Implementation
 There are multiple ways of course, it could be used an [[Array]] or a [[Singly linked list]] as well.
-Push and pop function is the better options with an array, because they are O(1) operations. 
+Push and pop function is the better options than shift and unshift with an array, because they are O(1) operations. 
 ```js
 // singly linked list implementation
 class Node {

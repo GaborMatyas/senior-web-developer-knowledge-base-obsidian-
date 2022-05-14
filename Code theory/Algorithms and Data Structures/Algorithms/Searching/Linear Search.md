@@ -1,6 +1,8 @@
 # Linear Search
 
 
+The Big O notation for Linear Search is **O(N)**. The complexity is directly related to the size of the inputs — the algorithm takes an additional step for each additional data element.
+
 Note for Javascript developers:
 `indexOf, includes, find, findIndex` operations uses linear search under the hood in Javascript.
 

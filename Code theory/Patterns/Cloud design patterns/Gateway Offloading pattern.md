@@ -1,0 +1,3 @@
+# Gateway Offloading pattern
+
+

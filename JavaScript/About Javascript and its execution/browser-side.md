@@ -27,4 +27,5 @@ The method **`console.dir()`** displays an interactive list of the properties of
 This is not part of the JavaScript engine but of modern Browsers like Google Chrome and helps us with asyncronous code. (with event listeners, like click listeners).
 Even when the call stack is empty and all syncronous code is done, the event listeners still need to be alive and active to respond user actions, like button clicks. 
 
-The event loop pings the Javascript engine whenever a new event is being fired. 
+The event loop pings the Javascript engine whenever a new event is being fired. It handles event callbacks. 
+

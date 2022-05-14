@@ -6,7 +6,7 @@
 - [[Functional programming]]
 - [[Functions]]
 - [[Loops]]
-- [[Object Oriented Programming]]
+- [[JavaScript/Object Oriented Programming/Object Oriented Programming]]
 - [[Operators]]
 - [[Variables]]
 

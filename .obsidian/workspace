@@ -4,12 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "c8b5547561e1e1e7",
+        "id": "b44fa7a86e997ddd",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Code theory/Code theory.md",
+            "file": "Code theory/Patterns/Patterns.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "21aafc3f11f7018a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Code theory/Patterns/Observer pattern.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "b98f0db23b11db19",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Code theory/Patterns/Object Oriented Programming/Object Oriented Programming.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "recursion",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 372
   },
   "right": {
     "id": "d3ef007525e9cabd",
@@ -69,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code theory/Code theory.md",
+                "file": "Code theory/Patterns/Observer pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +111,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c8b5547561e1e1e7",
+  "active": "21aafc3f11f7018a",
   "lastOpenFiles": [
+    "Code theory/Patterns/Observer pattern.md",
+    "Code theory/Patterns/Patterns.md",
+    "Code theory/Patterns/Object Oriented Programming/Object Oriented Programming.md",
+    "Code theory/Patterns/Creational Patterns/Factory Pattern.md",
     "Code theory/Code theory.md",
-    "Code theory/Tabulation.md",
-    "Code theory/Algorithms and Data Structures/Algorithms/Floyd's Tortoise And Hare Algorithm to detect cycles in linked lists.md",
-    "Code theory/Algorithms and Data Structures/Algorithms/Algorithms.md",
-    "Code theory/Dynamic Programming.md",
-    "Code theory/Memoization.md",
-    "Code theory/Algorithms and Data Structures/Algorithms and Data Structures.md",
-    "Code theory/Algorithms and Data Structures/Data Structures/Trees/Tree Traversals/Tree traversals.md",
-    "Code theory/Patterns/SOLID principles.md",
-    "Code theory/Patterns/Frequency Counter Problem Solving pattern.md"
+    "Code theory/Patterns/Architectural patterns/Microservices.md",
+    "Code theory/Patterns/Architectural patterns/microservices.png",
+    "Code theory/Patterns/Architectural patterns/Serverless.md",
+    "Code theory/Patterns/Cloud design patterns/Backends for Frontends pattern.md",
+    "Code theory/Patterns/Cloud design patterns/Gateway Offloading pattern.md"
   ]
 }

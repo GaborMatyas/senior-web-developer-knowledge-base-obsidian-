@@ -4,6 +4,7 @@
 - [[Auxiliary Space Complexity]]
 - [[Space complexity]]
 - [[Memoization]]
+- [[Tabulation]]
 
 
 # Algorithms
@@ -16,9 +17,6 @@
 
 # [[Dynamic Programming]]
 
+# [[Patterns]]
 
-# Patterns
-## Problem solving patterns
-- [[Frequency Counter Problem Solving pattern]] ( avoid the need for nested loops )
-- [[SOLID principles]]
 
