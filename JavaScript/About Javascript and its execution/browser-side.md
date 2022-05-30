@@ -29,3 +29,10 @@ Even when the call stack is empty and all syncronous code is done, the event lis
 
 The event loop pings the Javascript engine whenever a new event is being fired. It handles event callbacks. 
 
+It has an order. 
+First it checks and executes the callback of the Timers (setTImeout, setInterval), then Pending Callbacks (e.g: from I/O related callbacks that were deferred), 
+then the Poll phase, to check wheter there are new I/O events. If it has and can execute the callback, it does that, or if it is not possible, it can defer the execution then check again the timers. 
+Then Check phase, the setImmediate() callback execution. These will be run always after any opened event's callbacks. 
+Then execute all 'close' event callbacks. 
+IF there are no remaining event handlers, we execute the process.exit. (refs==0   <- this is the counter for the refs of callbacks/events) 
+

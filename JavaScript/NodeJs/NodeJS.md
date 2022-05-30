@@ -16,3 +16,6 @@ Such an expensive function like writeFile is sent to the Worker Pool, that is al
 
 ## Worker Pool
 It is responsible for all the heavy lifting. Almost completly detached from the Javascript code. It runs on different Threads. Once a worker is done, it will trigger the callback for the file operation for example. 
+
+- [[Exports in NodeJs]]
+- [[Different Module Formats]]

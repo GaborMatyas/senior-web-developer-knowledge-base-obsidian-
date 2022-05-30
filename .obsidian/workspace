@@ -4,36 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "b44fa7a86e997ddd",
+        "id": "12c94690cf016407",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Code theory/Patterns/Patterns.md",
+            "file": "JavaScript/NodeJs/Different Module Formats/CommonJs (CJS).md",
             "mode": "source",
             "source": false
           }
         }
       },
       {
-        "id": "21aafc3f11f7018a",
+        "id": "6da9e41a4868c959",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Code theory/Patterns/Observer pattern.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "b98f0db23b11db19",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Code theory/Patterns/Object Oriented Programming/Object Oriented Programming.md",
+            "file": "JavaScript/NodeJs/Exports in NodeJs.md",
             "mode": "source",
             "source": false
           }
@@ -93,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code theory/Patterns/Observer pattern.md",
+                "file": "JavaScript/NodeJs/Exports in NodeJs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "21aafc3f11f7018a",
+  "active": "6da9e41a4868c959",
   "lastOpenFiles": [
-    "Code theory/Patterns/Observer pattern.md",
-    "Code theory/Patterns/Patterns.md",
+    "JavaScript/NodeJs/Exports in NodeJs.md",
+    "JavaScript/NodeJs/Different Module Formats/CommonJs (CJS).md",
+    "JavaScript/NodeJs/Different Module Formats.md",
+    "JavaScript/NodeJs/NodeJS.md",
+    "JavaScript/Loops/Loops.md",
+    "JavaScript/About Javascript and its execution/browser-side.md",
     "Code theory/Patterns/Object Oriented Programming/Object Oriented Programming.md",
-    "Code theory/Patterns/Creational Patterns/Factory Pattern.md",
-    "Code theory/Code theory.md",
-    "Code theory/Patterns/Architectural patterns/Microservices.md",
-    "Code theory/Patterns/Architectural patterns/microservices.png",
-    "Code theory/Patterns/Architectural patterns/Serverless.md",
-    "Code theory/Patterns/Cloud design patterns/Backends for Frontends pattern.md",
-    "Code theory/Patterns/Cloud design patterns/Gateway Offloading pattern.md"
+    "Code theory/Patterns/Patterns.md",
+    "JavaScript/ReactJS/Optimization/Optimization.md",
+    "Code theory/Patterns/Observer pattern.md"
   ]
 }
