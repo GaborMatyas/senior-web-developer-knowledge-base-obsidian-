@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "12c94690cf016407",
+        "id": "b378577117318da1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JavaScript/NodeJs/Different Module Formats/CommonJs (CJS).md",
+            "file": "Rust/index.md",
             "mode": "source",
             "source": false
           }
         }
       },
       {
-        "id": "6da9e41a4868c959",
+        "id": "5775a52d78125433",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "JavaScript/NodeJs/Exports in NodeJs.md",
+            "file": "Rust/Data Types in Rust.md",
             "mode": "source",
             "source": false
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/NodeJs/Exports in NodeJs.md",
+                "file": "Rust/Data Types in Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6da9e41a4868c959",
+  "active": "5775a52d78125433",
   "lastOpenFiles": [
-    "JavaScript/NodeJs/Exports in NodeJs.md",
+    "Rust/Data Types in Rust.md",
+    "Rust/index.md",
+    "Rust/Rust.md",
+    "Rust/Cargo - Package Manager.md",
+    "Untitled.md",
+    "Rust/Useful Rust CLI commands.md",
+    "index.md",
+    "Code theory/Patterns/Architectural patterns/Model-View-Controller.md",
     "JavaScript/NodeJs/Different Module Formats/CommonJs (CJS).md",
-    "JavaScript/NodeJs/Different Module Formats.md",
-    "JavaScript/NodeJs/NodeJS.md",
-    "JavaScript/Loops/Loops.md",
-    "JavaScript/About Javascript and its execution/browser-side.md",
-    "Code theory/Patterns/Object Oriented Programming/Object Oriented Programming.md",
-    "Code theory/Patterns/Patterns.md",
-    "JavaScript/ReactJS/Optimization/Optimization.md",
-    "Code theory/Patterns/Observer pattern.md"
+    "JavaScript/NodeJs/Exports in NodeJs.md"
   ]
 }

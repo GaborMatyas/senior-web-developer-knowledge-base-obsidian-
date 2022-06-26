@@ -14,7 +14,7 @@
 The model is where the data of the application is managed. It receives input from the controller. 
 
 ## Controller:
-It receives user input and communicates this to the model in such a way, that the model can understand it. 
+It receives user input and communicates this to the model in such a way, that the model can understand it. E.g.: middlewares in express.js, routes
 
 ## View
 It is responsible for presenting the model to the user. 
